@@ -46,8 +46,8 @@ public class Car {
     public String getRegistrationNumber() {
         return registrationNumber;
     }
-    public void printCar() {
-    System.out.println("Id: " + this.id + " " + this.color + " " + this.brand + " " + this.model + " (" + this.year + ") " + " for " + this.price + " License : " + this.registrationNumber);
-}
+    public String toString() {
+        return "Id: " + this.id + " " + this.color + " " + this.brand + " " + this.model + " (" + this.year + ") " + " for " + this.price + " License : " + this.registrationNumber;
+    }
 
 }
